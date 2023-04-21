@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="index.css">
 
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
     <!--Google fonts-->
@@ -20,46 +20,23 @@
 </head>
 
 <body>
+    <header>
+        <div class="side_menu">
+            <!--menu-side-->
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4><span></span>hello</h4>
+            </div>
+        </div>
+        <div class="side_song">
+            <!--song-side-->
+        </div>
+        <div class="main_play">
+            <!--master-play-->
+        </div>
+    </header>
 
-    <div class="form__container"><!--container-->
-        <input type="checkbox" name="" id="form"><!--toggle-->
-        <!--log-in-->
-        <div class="sign-in__container"><!--signin-->
-            <h1>Sign In</h1>
-            <form action="">
-                <div class="social__icons">
-                    <a href="https:/gmail.com"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="https:/facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https:/linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <p>Or enter your information</p>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <small>Forgot Password</small>
-                <input type="submit" value="Login">
-                <small>Don't have an account? <label for="form" id="button">Sign Up</label></small>
-            </form>
-        </div>
-        <!--sign-up-->
-        <div class="sign-up__container"><!--signin-->
-            <h1>Create an account</h1>
-            <form action="">
-                <div class="social__icons">
-                    <a href="https:/gmail.com"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="https:/facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https:/linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <p>Or enter your information</p>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">
-                <small>Forgot Password</small>
-                <input type="submit" value="Create Account">
-                <small>Don't have an account? <label for="form" id="button">Sign Up</label></small>
-            </form>
-        </div>
-    </div>
+    <script src="./app.js"></script>
 </body>
 
 </html>
